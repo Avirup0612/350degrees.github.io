@@ -489,6 +489,8 @@ label {
     border: none;
     color: white;
     padding-left: 1rem;
+    width: 10rem;
+    padding-right: 1rem;
 }
 
 .newsletterip:focus {
