@@ -18,6 +18,7 @@ html {
     user-select: none;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: black;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
     width: auto;
     min-height: 90vh;
     max-height: fit-content;
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("Homeimgnew21.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Homeimgnew21.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,7 +128,7 @@ body {
     gap: 2rem;
 }
 
-.onlinebtn , .reservebtn, .contactbtn , .submitbtn , .loginbtn{
+.onlinebtn , .reservebtn, .contactbtn , .loginbtn{
     width: 10rem;
     height: 3rem;
     font-size: 1.1rem;
@@ -140,6 +141,7 @@ body {
     border: none;
     vertical-align: middle;
     padding: auto;
+    color: black !important;
 }
 
 .contactbtn {
@@ -147,31 +149,19 @@ body {
     visibility: hidden;
 }
 
-.aboutbtn {
-    width: 10rem;
-    height: 3rem;
-    font-size: 1.1rem;
-    background: transparent;
-    border-radius: 2rem;
-    font-weight: bolder;
-    line-height: 3rem;
-    text-align: center;
-    transition: all linear 0.1s;
-    border: 2px solid #c28e54;
-    color: #c28e54;
-}
-
 .submitbtn {
     width: 15rem;
     height: 2.5rem;
     font-size: 1.1rem;
     background: #c28e54;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     font-weight: bolder;
     line-height: 2.5rem;
     text-align: center;
+    vertical-align: middle;
     transition: all linear 0.1s;
     border: none;
+    color: black !important;
 }
 
 .onlinebtn:active , .reservebtn:active , .aboutbtn:active , .submitbtn:active , .contactbtn:active , .loginbtn:active{
@@ -413,6 +403,7 @@ label {
     transition: all linear 0.1s;
     border: none;
     transition: all ease-in-out 0.1s;
+    color: black;
 }
 
 .mainquerybtn:active {
@@ -668,9 +659,9 @@ ip
     }
 
     .reservation {
-        background-image:  linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("Reserveimgfinal.jpg");
+        background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Reserveimgfinal.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
     }
 
