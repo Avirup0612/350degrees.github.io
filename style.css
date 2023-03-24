@@ -490,6 +490,7 @@ label {
     color: white;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    width: 11rem;
 }
 
 .newsletterip:focus {
