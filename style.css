@@ -220,7 +220,7 @@ body {
 .service {
     width: 100%;
     min-height: fit-content;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("Serviceimgnew.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url("Serviceimgnew.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -466,7 +466,7 @@ label {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
-    padding: 0.3rem;
+    padding: 0.5rem;
 }
 
 .emailinput {
@@ -552,7 +552,7 @@ label {
 .display {
     transform: translateX(0%);
 }
-
+ip
 .reservetxtpart {
     transform: translate(0%);
     transition: all linear 0.2s;
@@ -570,7 +570,7 @@ label {
        }
 }
 
-@media (max-width:768px){
+@media (max-width:780px){
     html{
         font-size: 70%;
        }
